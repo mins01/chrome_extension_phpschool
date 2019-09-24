@@ -1,0 +1,34 @@
+{
+	"name": "크롬확장모듈 for PHPSCHOOL",
+	"version": "1.0",
+	"description": "PHP스쿨관련 확장모듈 모음",
+	"manifest_version": 2,
+	"permissions": ["activeTab","declarativeContent","storage",
+		"notifications",
+		"tabs",
+		"https://phpschool.com/",
+		"https://www.phpschool.com/",
+    "http://phpschool.com/",
+		"http://www.phpschool.com/"
+	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"options_page": "options.html",
+	"page_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "images/top_logo.png",
+			"32": "images/top_logo.png",
+			"48": "images/top_logo.png",
+			"128": "images/top_logo.png"
+		}
+	},
+	"icons": {
+		"16": "images/top_logo.png",
+		"32": "images/top_logo.png",
+		"48": "images/top_logo.png",
+		"128": "images/top_logo.png"
+	}
+}
