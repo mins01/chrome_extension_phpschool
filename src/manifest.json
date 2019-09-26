@@ -1,6 +1,6 @@
 {
 	"name": "크롬확장모듈 for PHPSCHOOL",
-	"version": "1.2",
+	"version": "1.3",
 	"description": "PHP스쿨관련 확장모듈 모음",
 	"manifest_version": 2,
 	"permissions": ["activeTab","declarativeContent","storage",
